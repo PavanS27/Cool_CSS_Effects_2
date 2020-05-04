@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="progressBar"></div>
+    <section class="section1">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <ul>
+          <li data-text="Home"><a href="#">Home</a></li>
+          <li data-text="About"><a href="#">About</a></li>
+          <li data-text="Clients"><a href="#">Clients</a></li>
+          <li data-text="Contact"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <span
+        style="font-size: 50px; cursor: pointer; font-weight: 900;"
+        onclick="openNav()"
+        >&#9776;
+      </span>
+      <h2>
+        Believe
+        <span>Believe</span>
+        <span>Believe</span>
+        <span>in Yourself </span>
+      </h2>
+    </section>
+    <section class="section2">
+      <div class="container">
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://www.npg.org.uk/popart/img/070.jpg"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://assets.yellowtrace.com.au/wp-content/uploads/2019/07/25141641/Abstract-Portrait-Paintings-by-Joseph-Lee-Yellowtrace-01.jpg"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTM3NTk5OTY0Mjc5NzQzNzMw/vincent_van_gogh_self_portrait_painting_musee_dorsay_via_wikimedia_commons_promojpg.jpg"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/81dlDL0SeNL._SL1414_.jpg"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://images.instapainting.com/5c51610e87456f067c8b4576.jpg?w=400&h=400&fp-x=0.5&fp-y=0.5&fp-z=1.2&fit=crop&crop=focalpoint&auto=enhance%2Ccompress%2Cformat"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgBox">
+            <img
+              src="https://i.pinimg.com/736x/26/1b/b0/261bb0dcaa39a7d9a2dd10a09ce22df3.jpg"
+              style="width: 300px; height: 400px;"
+            />
+          </div>
+          <div class="details">
+            <h1>
+              Lorem ipsum dolor
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+              consequuntur corporis similique maiores doloribus quod minus
+              excepturi quo commodi eligendi deserunt, necessitatibus,
+              voluptatem iusto ipsum sunt nobis porro. Reiciendis, minus.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="fixed-footer">
+      <h3>Sticky Footer</h3>
+    </footer>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+
+    $(window).scroll(function () {
+      var scroll = $(window).scrollTop(),
+        dh = $(document).height(),
+        wh = $(window).height();
+      scrollPercent = (scroll / (dh - wh)) * 100;
+      $("#progressBar").css("height", scrollPercent + "%");
+    });
+  </script>
+</html>
